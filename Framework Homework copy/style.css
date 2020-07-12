@@ -1,0 +1,245 @@
+header {
+    background-color: black;
+    color: azure;
+}
+#name {
+    position: absolute;
+    text-align: center;
+    margin-left: 605px;
+    color: azure; 
+    background-color: black;
+    width: 200px;
+    height: 75px;
+}
+
+.job {
+    position: absolute;
+    top: 83px; 
+    margin-left: 420px;
+    color: azure; 
+    background-color: black;
+    width: 550px;
+    text-align: center;
+}
+
+.projectHeader {
+    position: absolute; 
+    top: 150px;
+    font-size: 30px;
+    margin-left: 560px;
+    color: azure;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+.elaboration {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 400px;
+    background-color: azure;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    top: 600px; 
+    margin-left: 530px;
+    background-color: black;
+    height: 120px;
+    width: 350px;
+    font-family: Helvetica;
+    /* font-weight: 15;*/
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: azure;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.frameworkHeader {
+    position: absolute;
+    top: 750px;
+    font-size: 40px;
+    color: azure;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.frameworks{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.desktop {
+    position: absolute;
+    top: 850px;
+    height: 600px;
+    width: 750px;
+    border: 10px solid black;
+}
+
+.mobile {
+    position: absolute;
+    top: 850px;
+    margin-left: 850px;
+    width: 400px;
+    height: 600px;
+    border: 10px solid black;
+}
+
+.tablet {
+    position: absolute; 
+    top: 1520px;
+    margin-left: 250px;
+    border: 10px solid black;
+    width: 800px;
+    height: 600px;
+}
+
+.matrixHeading {
+    position: absolute;
+    top: 2150px;
+    font-size: 40px;
+    color: azure;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin-left: 480px;
+}
+
+.matrixMap {
+    position: absolute;
+    top: 2250px;
+    height: 600px;
+    width: 750px;
+    margin-left: 270px;
+    border: 10px solid black;
+}
+
+.preHeader{
+    position: absolute;
+    top: 2900px;
+    font-size: 40px;
+    color: azure;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin-left: 200px;
+    word-spacing: 20px;
+}
+
+.postHeader{
+    position: absolute;
+    top: 2900px;
+    font-size: 40px;
+    color: azure;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin-left: 800px;
+    word-spacing: 10px;
+}
+
+  .pre{
+    background-color: azure;
+    border: 5px solid black;
+    position: absolute;
+    top: 2980px;
+    margin-left: 270px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    line-height: 30px;
+}
+
+.post{
+    position: absolute;
+    background-color: azure;
+    border: 5px solid black; 
+    top: 2980px;
+    margin-left: 870px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    line-height: 30px;
+}
+
+.FC {
+    position: absolute;
+    top: 3280px;
+    font-size: 40px;
+    color: azure;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.preMVPHeader {
+    position: absolute;
+    top: 3370px;
+    margin-left: 300px;
+    font-size: 30px;
+    background-color: black;
+    color: azure;
+}
+
+.preMVP, .preTH, .preTD {
+    border: 1px solid black;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+
+.preMVP {
+    position: absolute;
+    top: 3450px;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.postMVPHeader {
+    position: absolute;
+    top: 3950px;
+    margin-left: 300px;
+    font-size: 30px;
+    background-color: black;
+    color: azure;
+}
+#postMVP {
+    position: absolute;
+    margin-left: 300px;
+    top: 4030px;
+    width: 60%;
+    padding-bottom: 100px;
+}
+
+.postMVP, .postTH, .postTD{
+    border: 1px solid black;
+    height: 50px;
+    font-size: 25px;
+}
