@@ -27,12 +27,18 @@ a{
 #name {
     margin-left: 450px;
 }
+/* HeadShot CSS Code
 img {
     height: 300px;
     width: 150px;
     top: 130px;
     position: absolute;
     margin-left: 530px;
+}
+*/
+
+.apiImages {
+    width: 50%;
 }
 
 #about {

@@ -23,10 +23,10 @@ const app = (data) => {
 
     const createProjectElement = (project) => {
         const $div =$('<div>')
-        $div.append($('<h2>').text(project.title))
-        $div.append($('<p>').text(project.description))
-        $div.append($('<img>').attr('src', project.image))
-        $div.append($('<a>').attr('href', project.url))
+        $div.append($('<h2>').text(project.title).addClass('apiTitles'))
+        $div.append($('<p>').text(project.description).addClass('apiTexts'))
+        $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
+        $div.append($('<a>').attr('href', project.url).addClass('apiURL'))
         return $div
     }
     //$('body').append(createProjectElement(data[0]))
