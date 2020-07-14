@@ -1,0 +1,66 @@
+html {
+    background-color: peachpuff
+}
+#name {
+    margin-left: 450px;
+}
+img {
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    margin-left: 530px;
+}
+
+#about {
+    position: absolute; 
+    top: 400px;
+    margin-left: 550px;
+}
+
+.about {
+    position: absolute;
+    top: 440px;
+    margin-left: 490px;
+    box-shadow: 5px 10px;
+    background-color: white;
+    border: 2px solid teal;
+    color: burlywood;
+}
+
+#education {
+    position: absolute;
+    top: 480px;
+    margin-left: 550px;
+
+}
+
+a{
+    margin-left: 75px;
+}
+
+.education {
+    position: absolute;
+    top: 510px;
+    margin-left: 460px;
+    box-shadow: 5px 10px;
+    background-color: white;
+    border: 2px solid teal;
+    color: rgb(160, 211, 194);
+}
+#work {
+    position: absolute;
+    top: 570px;
+    margin-left: 535px;
+}
+
+#project{
+    position: absolute;
+    top: 650px;
+    margin-left: 530px;
+}
+
+#contact{
+    position: absolute;
+    top: 730px;
+    margin-left: 545px;
+}
