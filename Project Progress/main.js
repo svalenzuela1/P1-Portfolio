@@ -22,7 +22,7 @@ const app = (data) => {
     console.log(data)
 
     const createProjectElement = (project) => {
-        const $div =$('<div>')
+        const $div =$('<div>').addClass('API')
         $div.append($('<h2>').text(project.title).addClass('apiTitles'))
         $div.append($('<p>').text(project.description).addClass('apiTexts'))
         $div.append($('<img>').attr('src', project.image).addClass('apiImages'))

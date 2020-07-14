@@ -39,6 +39,12 @@ img {
 
 .apiImages {
     width: 50%;
+    height: 50%;
+}
+
+.API {
+    display: flex;
+    flex-direction: column;
 }
 
 #about {
