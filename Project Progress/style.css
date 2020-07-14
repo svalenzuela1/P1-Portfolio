@@ -1,12 +1,36 @@
 html {
     background-color: peachpuff
 }
+
+nav{
+    box-sizing: content-box;
+    background-color: black;
+    width: 100vw; 
+    height: 50px;
+    
+}
+ul{
+    display: flex;
+    font-size: larger;
+    justify-content: space-around;
+    
+}
+ li {
+    list-style-type: none;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 #name {
     margin-left: 450px;
 }
 img {
     height: 300px;
     width: 150px;
+    top: 200px;
     position: absolute;
     margin-left: 530px;
 }
