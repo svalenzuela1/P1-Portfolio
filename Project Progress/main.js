@@ -43,7 +43,25 @@ const app = (data) => {
 
 }
 
-
+/*
+//HAMBURGER FUNCTION
+const $burger = $(“.burger”)
+const $menu = $(“.menu")
+let show = false;
+const showMenu = (event) => {
+    if (show) {
+        $right1.each(function(index){
+            $(this).css(“display”,“none”)
+        })
+        show = false
+    } else {
+        $menu.each(function(index){
+            $(this).css(“display”,“block”)
+        })
+        show = true
+    }
+}
+*/
 
 /*
 //skills section

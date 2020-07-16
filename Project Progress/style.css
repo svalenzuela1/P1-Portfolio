@@ -74,9 +74,11 @@ img{
     margin-bottom: 300px;
 }
 */
-#about {
+.aboutHeader {
+    /*
     position: absolute; 
     top: 430px;
+    */
     margin-left: 575px;
     
 }
@@ -96,7 +98,7 @@ img{
     line-height: 2; 
 }
 
-#education {
+.educationHeader {
     /*
     margin-top: 100px;
     position: absolute;
@@ -125,7 +127,7 @@ img{
     line-height: 2;
 }
 
-#work {
+.workHeader {
     /*
     position: absolute;
     top: 970px;
@@ -147,12 +149,14 @@ img{
     width: 400px;
 }
 
-#skills {
+.skillsHeader {
     /*
     position: absolute;
     top: 1250px;
     */
     margin-left: 575px;
+    flex-direction: column;
+    align-content: space-around;
 }
 .skills {
     /*
@@ -162,8 +166,10 @@ img{
     margin-left: 450px;
     width: 300px;
     height: 50px;
+    /*
     display: flex;
     flex-wrap: wrap;
+    */
 }
 
 .htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
@@ -172,7 +178,7 @@ img{
     width: 150px;
 }
 
-#project{
+.projectHeader{
     /*
     position: absolute;
     top: 1900px;
@@ -182,6 +188,7 @@ img{
 body {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
 }
 .projectSection {
     /*
@@ -192,8 +199,8 @@ body {
     grid-template-rows: [top] 1fr [middle] 2fr [center] 1fr [bottom];
     */
     display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+    flex-direction: column;
+    align-content: space-around;
     border: solid red; 
 }
 /*
@@ -219,8 +226,10 @@ main {
 */
 
 #contact{
+    /*
     position: absolute;
     top: 2600px;
+    */
     margin-left: 545px;
 }
 
@@ -230,6 +239,8 @@ main {
     top: 2600px;
     */
     margin-bottom: 400px;
+    align-content: flex-end;
+    flex-direction: row;
 
 }
 
@@ -400,10 +411,10 @@ main {
         margin-left: 225px;
     }
     
-    #projectSection {
+    .projectSection {
         display: flex;
-        flex-direction: row;
-        align-self: flex-end;
+        flex-direction: column;
+        /*align-self: flex-end;*/
     }
     /*
     main {
