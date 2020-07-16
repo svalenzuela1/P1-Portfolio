@@ -35,7 +35,9 @@ const app = (data) => {
     data.forEach(project =>{
 
         const $projectDiv = createProjectElement(project)
-        $('#projectSection').append($projectDiv)
+       // $('#projectSection').css('border','solid red')
+        $('.projectSection').append($projectDiv)
+
 
     })
 
