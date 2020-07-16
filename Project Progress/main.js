@@ -1,3 +1,4 @@
+
 console.log($)
 
 let url = 'https://spreadsheets.google.com/feeds/list/1UUsLTR3KfDVDztVxiJ9pC61R8jDDpiVVilF-fxHzp4U/od6/public/values?alt=json'
@@ -22,11 +23,11 @@ const app = (data) => {
     console.log(data)
 
     const createProjectElement = (project) => {
-        const $div =$('<div>').addClass('API')
-        $div.append($('<h2>').text(project.title).addClass('apiTitles'))
-        $div.append($('<p>').text(project.description).addClass('apiTexts'))
-        $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
-        $div.append($('<a>').attr('href', project.url).addClass('apiURL'))
+        const $div =$('<div>')//.addClass('API')
+        $div.append($('<h2>').text(project.title))//.addClass('apiTitles'))
+        $div.append($('<p>').text(project.description))//.addClass('apiTexts'))
+        $div.append($('<img>').attr('src', project.image))//.addClass('apiImages'))
+        $div.append($('<a>').attr('href', project.url))//.addClass('apiURL'))
         return $div
     }
     //$('body').append(createProjectElement(data[0]))
@@ -34,16 +35,38 @@ const app = (data) => {
     data.forEach(project =>{
 
         const $projectDiv = createProjectElement(project)
-        $('body').append($projectDiv)
+        $('#projectSection').append($projectDiv)
 
     })
 
 }
 
+
+
+/*
+//skills section
+const githubImg = "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png";
+
+//let clickOnGithub = () => {
+    const $gitLogo = $('<img>')
+    //const githubImg = 'https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png';
+    $gitLogo.attr('src', "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png")
+    $('.projects').append($gitLogo)
+
+    $gitLogo.on('click', (event) => {
+location.replace("https://github.com/svalenzuela1")
+    }
+*/
+//})
+//}
+
+ //$githubImg.on('click',(event) => {
+  //  clickOnGithub()
+//})
+
 /*
 .then( response => response.json() )    // returns the JSON data as a JS object
     .then( data => {
-
         // creates an array of parsed project objects
         const projects = data.feed.entry.map( entry => {
              return {
@@ -55,12 +78,9 @@ const app = (data) => {
          })
          
          app(projects)  // calls the application with your new projects array as argument
-
     })
-
 // all application logic is included inside the app() function    
 const app = (projects) => {
-
     // creates a jQuery DOM element based on an individual project object
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass("project")
@@ -70,13 +90,10 @@ const app = (projects) => {
         $div.append($('<a>').attr('href', project.url).text("LINK >>"))
         return $div
     }
-
     // adds each project element to <body>
     projects.forEach(project => {
         const $projectDiv = createProjectElement(project)
         $('body').append($projectDiv)
     })
-
 }
-
 */
