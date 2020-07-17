@@ -81,15 +81,17 @@ img{
     text-align: center;
 }
 
+.beginning1 {
+    display: flex;
+    justify-content: center;
+}
+
 #aboutHeader {
     text-align: center;
     font-size: 16;
 }
 
 .about {
-    justify-content: center;
-    margin-left: 400px;
-    box-shadow: 5px 10px;
     background-color: white;
     border: 2px solid burlywood;
     color: burlywood;
@@ -98,26 +100,35 @@ img{
     line-height: 2; 
 }
 
+.beginning2 {
+    display: flex;
+    justify-content: center;
+}
+
 .educationHeader {
     font-size: 25px;
     text-align: center;
 }
-
+/*
 .break {
     margin-left: 70px;
     color: burlywood;
     font-size: 16px;
 }
-
+*/
 .education {
-    margin-left: 460px;
-    box-shadow: 5px 10px;
     background-color: white;
     border: 2px solid burlywood;
     color: burlywood;
-    height: 75px; 
+    height: 200px; 
     width: 310px;
     line-height: 2;
+    text-align: center;
+}
+
+.beginning3{
+    display: flex;
+    justify-content: center;
 }
 
 .workHeader {
@@ -126,13 +137,12 @@ img{
 }
 
 .work {
-    margin-left: 400px;
-    box-shadow: 5px 10px;
     background-color: white;
     border: 2px solid burlywood;
     color: burlywood;
     margin-bottom: 100px;
     width: 400px;
+    line-height: 2;
 }
 
 #skillsHeader {
