@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 
 * { border: 1px solid black;}
 
@@ -172,7 +172,8 @@ body {
 }
 .projectSection {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: center;
 }
 
 #contactHeader{
@@ -190,7 +191,8 @@ body {
     text-align: center;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 450px) {
 
     html {
         background-color: peachpuff
