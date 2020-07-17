@@ -1,4 +1,4 @@
-
+/*
 console.log($)
 
 let url = 'https://spreadsheets.google.com/feeds/list/1UUsLTR3KfDVDztVxiJ9pC61R8jDDpiVVilF-fxHzp4U/od6/public/values?alt=json'
@@ -42,26 +42,30 @@ const app = (data) => {
     })
 
 }
+*/
 
-/*
 //HAMBURGER FUNCTION
-const $burger = $(“.burger”)
-const $menu = $(“.menu")
+//alex youtube tutorial
+const $hamburger = $(".burger")
+const $tabletLinks = $(".tabletLink")
 let show = false;
+
 const showMenu = (event) => {
     if (show) {
-        $right1.each(function(index){
-            $(this).css(“display”,“none”)
+        $tabletLinks.each(function(index){
+            $(this).css("display","none")
         })
         show = false
     } else {
-        $menu.each(function(index){
-            $(this).css(“display”,“block”)
+        $tabletLinks.each(function(index){
+            $(this).css("display","block")
         })
         show = true
     }
 }
-*/
+
+$hamburger.on("click", showMenu)
+
 
 /*
 //skills section

@@ -1,4 +1,5 @@
 @media only screen and (min-width: 800px) {
+        /*DESKTOP*/
 
 * { border: 1px solid black;}
 
@@ -6,6 +7,10 @@ html {
     background-color: peachpuff
 }
 
+.mobileBlock {
+    visibility: hidden;
+}
+
 nav{
     box-sizing: content-box;
     background-color: black;
@@ -191,35 +196,65 @@ body {
     text-align: center;
 }
 }
+
 @media only screen and (max-width: 800px) {
+    /* TABLET */
     * { border: 1px solid black;}
 
 html {
     background-color: peachpuff
 }
-
-nav{
-    box-sizing: content-box;
-    background-color: black;
-    width: 100vw; 
-    height: 80px;
-    
-}
-ul{
+/*alex tutorial*/
+header {
     display: flex;
-    font-size: larger;
-    justify-content: space-around;
-    
+    width: 80%;
+    min-width: 320px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px;
 }
- li {
-    list-style-type: none;
-    font-size: 35px;
+/*
+.logo {
+    font-size: larger;
+    color: white; 
+    margin: 20px;
+    font-family: 
+}
+*/
+
+.mobileBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-content: center;
+    margin: 20px;
 }
 
-a{
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+.burger {
+    color: white;
+    font-size: x-large;
+}
+
+.tabletLink {
+    display: none;
+}
+/* end of alex tutorial */
+
+.tabletBlock {
+    visibility: hidden;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
+
 #name {
    font-size: 40px;
    text-align: center;
@@ -382,12 +417,23 @@ body {
 .contactFormHeader {
     text-align: center;
 }
+}
 @media only screen and (max-width: 450px) {
-
+    /* MOBILE */
     html {
         background-color: peachpuff
     }
     
+    header {
+        display: flex;
+        width: 80%;
+        min-width: 320px;
+        background-color: black;
+        justify-content: space-between;
+        margin: 20px;
+    
+    }
+/*
     nav{
         box-sizing: content-box;
         background-color: black;
@@ -396,7 +442,6 @@ body {
         
     }
     ul{
-        display: flex;
         font-size: larger;
         justify-content: space-around;
         
@@ -405,7 +450,8 @@ body {
         list-style-type: none;
         font-size: 35px;
     }
-    
+    */
+
     a{
         text-decoration: none;
         color: white;
@@ -528,4 +574,5 @@ body {
         margin-bottom: 400px;
     
     }
+
 }
