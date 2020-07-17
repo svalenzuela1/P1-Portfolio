@@ -229,6 +229,7 @@ header {
     width: 40%;
     align-content: center;
     margin: 20px;
+    flex-direction: column;
 }
 
 nav div a {
@@ -243,6 +244,7 @@ nav div a {
 
 .tabletLink {
     display: none;
+    flex-direction: column;
 }
 /* end of alex tutorial */
 
