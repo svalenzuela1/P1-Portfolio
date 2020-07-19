@@ -78,13 +78,53 @@ a{
     flex-direction: column;
     text-align: center;
 }
-
+/* beginning of grid */
 .introCopy {
     display: grid;
     grid-template-areas: 
-    "beginning1Copy beginning1Copy beginning1Copy"
-    "beginning2Copy beginning2Copy beginning3Copy"
+    ". beginning1Copy ."
+    "beginning2Copy . beginning3Copy";
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    height: 500px;
+    /*
+    width: 90%;
+    margin: auto;
+    */
 }
+
+.beginning1Copy {
+    grid-area: beginning1Copy;
+    color: blue;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    /*
+    grid-row-start: auto;
+    */
+    margin-bottom: 20px;
+}
+
+.beginning2Copy {
+    grid-area: beginning2Copy;
+    color: teal;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.beginning3Copy {
+    grid-area: beginning3Copy;
+    grid-template-rows: span;
+    color: red;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* end of grid */
 
 .beginning1 {
     display: flex;
