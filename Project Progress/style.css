@@ -9,6 +9,17 @@ html {
 
 .mobileBlock {
     visibility: hidden;
+    display: none;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    min-width: 320px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px;
 }
 
 nav{
@@ -54,22 +65,25 @@ a{
     flex-direction: flex-end;
     display: flex
 }
-.API {
-    display: flex;
-    flex-direction: row;
-}
-*/
-/* temporary for api images */
 
-img{
-    width: 20%;
-    height: 20%;
+*/
+
+.hideOnDesktop{
+    visibility: hidden;
+    display: none;
 }
 
 .Logos {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.introCopy {
+    display: grid;
+    grid-template-areas: 
+    "beginning1Copy beginning1Copy beginning1Copy"
+    "beginning2Copy beginning2Copy beginning3Copy"
 }
 
 .beginning1 {
@@ -149,6 +163,26 @@ img{
     text-align: center;
 }
 
+/*
+.API {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apiImages {
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+}
+*/
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -164,44 +198,44 @@ body {
 #form {
     display: flex;
     flex-direction: column;
-    }
-    #contactHeader{
-    text-align: center;
-    }
+}
     
-    .contactSection {
+#contactHeader{
+    text-align: center;
+}
+    
+.contactSection {
     margin-bottom: 200px;
     align-content: flex-end;
     flex-direction: row;
+}
     
-    }
+.contactFormHeader {
+    text-align: center; 
+}
     
-    .contactFormHeader {
-    text-align: center;
-    
-    }
-    
-    .contactName {
+.contactName {
     flex-direction: row;
     height: 40px;
-    }
+}
     
-    .contactEmail {
+.contactEmail {
     flex-direction: row;
     height: 40px;
-    }
+}
     
-    .contactPhone {
+.contactPhone {
     flex-direction: row;
     height: 40px;
-    }
+}
     
-    .message {
+.message {
     height: 200px;
-    }
-    .labels {
+}
+
+.labels {
     font-size: 30px;
-    }
+}
     
 }
 
@@ -212,16 +246,22 @@ body {
 html {
     background-color: peachpuff
 }
+
+.introCopy {
+    display: none;
+}
+
 /*alex tutorial*/
 header {
     display: flex;
     width: 80%;
-    min-width: 320px;
+    min-width: 450px;
     background-color: black;
     justify-content: space-between;
     margin: 20px auto;
     padding: 5px;
 }
+
 /*
 .logo {
     font-size: larger;
@@ -258,6 +298,7 @@ nav div a {
 
 .tabletBlock {
     visibility: hidden;
+    display: none;
 }
 
 a {
@@ -445,15 +486,20 @@ html {
     background-color: peachpuff
 }
 
+.introCopy {
+    display: none;
+}
+
 .tabletBlock {
     visibility: hidden;
+    display: none;
 }
 
 /*alex tutorial*/
 header {
     display: flex;
-    width: 80%;
-    min-width: 320px;
+    width: 90%;
+    min-width: 10px;
     background-color: black;
     justify-content: space-between;
     margin: 20px auto;

@@ -23,14 +23,14 @@ const app = (data) => {
     console.log(data)
 
     const createProjectElement = (project) => {
-        const $div =$('<div>')//.addClass('API')
-        $div.append($('<h2>').text(project.title))//.addClass('apiTitles'))
-        $div.append($('<p>').text(project.description))//.addClass('apiTexts'))
-        $div.append($('<img>').attr('src', project.image))//.addClass('apiImages'))
-        $div.append($('<a>').attr('href', project.url))//.addClass('apiURL'))
+        const $div =$('<div>').addClass('API')
+        $div.append($('<h2>').text(project.title).addClass('apiTitles'))
+        $div.append($('<p>').text(project.description).addClass('apiTexts'))
+        $div.append($('<img>').attr('src', project.image).addClass('apiImages'))
+        $div.append($('<a>').attr('href', project.url).addClass('apiURL'))
         return $div
     }
-    //$('body').append(createProjectElement(data[0]))
+
     
     data.forEach(project =>{
 
