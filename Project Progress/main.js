@@ -67,6 +67,7 @@ const showMenu = (event) => {
 $hamburger.on("click", showMenu)
 
 
+document.getElementById('submit')
 /*
 //skills section
 const githubImg = "https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png";

@@ -14,6 +14,7 @@ html {
 }
 
 /*alex tutorial*/
+
 header {
     display: flex;
     width: 90%;
@@ -25,12 +26,15 @@ header {
 }
 
 .desktopBlock {
+    min-width: 10px;
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 90%;
     align-content: center;
-    margin: 20px;
     flex-direction: column;
+    background-color: black;
+    margin: 20px auto;
+    padding: 5px;
 }
 
 nav div a {
@@ -273,7 +277,7 @@ body {
 }
 
 /*alex tutorial*/
-header {
+.tabletBlock /*header*/{
     display: flex;
     width: 80%;
     min-width: 450px;
@@ -545,6 +549,7 @@ background-color: black;
 justify-content: space-between;
 margin: 20px auto;
 padding: 5px;
+height: 200px;
 }
 
 nav{
@@ -558,17 +563,20 @@ ul{
 display: flex;
 font-size: larger;
 justify-content: space-around;
+color: white;
 
 }
 li {
 list-style-type: none;
 font-size: 35px;
+color: white;
 }
 
-a{
+.desktopLink{
 text-decoration: none;
 color: white;
 }
+
 #name {
 font-size: 40px;
 text-align: center;

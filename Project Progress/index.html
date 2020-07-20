@@ -26,10 +26,10 @@
     <header>
     <nav class ="tabletBlock">
         <ul>
-            <li><a href="#aboutHeaderCopy">About Me</a></li>
-            <li><a href="#skillsHeader">Skills</a></li>
-            <li><a href="#projectHeader">Projects</a></li>
-            <li><a href="#contactHeader">Contact</a></li>
+            <li><a class="desktopLink" href="#aboutHeaderCopy">About Me</a></li>
+            <li><a class="desktopLink" href="#skillsHeader">Skills</a></li>
+            <li><a class="desktopLink" href="#projectHeader">Projects</a></li>
+            <li><a class="desktopLink" href="#contactHeader">Contact</a></li>
         </ul>
     </nav>
 
@@ -49,11 +49,11 @@
                 <img class="headshot" src="https://drscdn.500px.org/photo/1018550134/m%3D256/v2?sig=6af01da31e4c8478c1edacd9b166d43d00615f0f2726a0ee5d3b8e464237938c" alt="Headshot">
             </div>
         <div class="Logos">
-            <a href="https://github.com/svalenzuela1">
+            <a target="_blank" href="https://github.com/svalenzuela1">
                 <img class="githubLogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github Logo"><a href="https://github.com/svalenzuela1"></a>
             </a>
 
-            <a>
+            <a target="_blank" href="https://www.linkedin.com/in/stephanie-v-568577141/">
                 <img class="linkedinLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1024px-LinkedIn_Logo.svg.png" alt="Linkedin Logo"> <a href="https://www.linkedin.com/in/stephanie-v-568577141/"></a>
             </a>
           <!--  <img src="https://drscdn.500px.org/photo/1018550134/m%3D900/v2?sig=9d50279fc38ce0d0d78063d9394e8881e8acc5c278f2526e3326abfda5688c95" alt="headshot"> -->
@@ -173,17 +173,20 @@
         <footer> 
             <h2 id="contactHeader"> Contact Me</h2>
 
-    <form id="form">
+    <form id="form" action="mailto:stephanievalenzuela1997@gmail.com" method="get" enctype="text/plain">
+        
     <p id="returnmessage"></p>
     <label class="labels">Name: <span>*</span></label>
-    <input class="contactName"type="text" placeholder="Name"/>
+    <input class="contactName" type="text" placeholder="Name"/>
     <label class="labels">Email: <span>*</span></label>
     <input class="contactEmail"type="text" placeholder="Email"/>
     <label class="labels">Contact No: <span>*</span></label>
     <input class="contactPhone"type="text" placeholder="10 digit Mobile no."/>
     <label class="labels">Message:</label>
     <textarea class="message" placeholder="Message......."></textarea>
-    <input type="button" id="submit" value="Send Message"/>
+    <a action="mailto:stephanievalenzuela1997@gmail.com" method="get" enctype="text/plain"> <input type="button" id="submit" value="Send Message" />
+    <input type="reset" name="reset" value="Clear Form" />
+</a>
     </form>
     
         </footer>
