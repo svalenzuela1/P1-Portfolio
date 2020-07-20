@@ -225,6 +225,12 @@ a{
     
     }
     
+    .contactText {
+        font-size: 25px;
+         color: white;
+         background-color: black;
+    }
+
     .contactName {
         flex-direction: row;
         height: 40px;
@@ -480,6 +486,12 @@ body {
     
     }
     
+    .contactText {
+        font-size: 25px;
+         color: white;
+         background-color: black;
+    }
+
     .contactName {
     flex-direction: row;
     height: 40px;
