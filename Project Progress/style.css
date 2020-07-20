@@ -7,7 +7,7 @@ html {
     background-color: peachpuff
 }
 
-.mobileBlock {
+.desktopBlock {
     visibility: hidden;
     display: none;
 }
@@ -58,6 +58,10 @@ a{
     text-align: center;
 }
 
+.githubLogo, .linkedinLogo {
+    width: 20%;
+    height: 20%;
+}
 /*
 .apiImages {
     width: 20%;
@@ -292,6 +296,12 @@ html {
     background-color: peachpuff
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
 .introCopy {
     display: none;
 }
@@ -316,13 +326,15 @@ header {
 }
 */
 
-.mobileBlock {
+.desktopBlock {
     display: flex;
     justify-content: space-around;
     width: 40%;
     align-content: center;
     margin: 20px;
     flex-direction: column;
+    font-size: 20px;
+    line-height: 2;
 }
 
 nav div a {
@@ -365,23 +377,9 @@ a {
     text-align: center;
 }
 
-/*
-.apiImages {
-    width: 20%;
-    height: 20%;
-    flex-direction: flex-end;
-    display: flex
-}
-.API {
-    display: flex;
-    flex-direction: row;
-}
-*/
-/* temporary for api images */
-
-img{
-    width: 20%;
-    height: 20%;
+.githubLogo, .linkedinLogo {
+    width: 40%;
+    height: 40%;
 }
 
 .Logos {
@@ -467,7 +465,20 @@ img{
 #projectHeader{
     text-align: center;
 }
+/* Beginning of API Section */
+.apiImages {
+    width: 50%;
+    height: 50%;
+}
 
+.apiTitles {
+    font-size: 50px;
+}
+
+.apiTexts {
+    font-size: 40px;
+}
+/* End Of API Section */
 body {
     display: flex;
     flex-direction: column;
@@ -550,16 +561,8 @@ header {
     margin: 20px auto;
     padding: 5px;
 }
-/*
-.logo {
-    font-size: larger;
-    color: white; 
-    margin: 20px;
-    font-family: 
-}
-*/
 
-.mobileBlock {
+.desktopBlock {
     display: flex;
     justify-content: space-around;
     width: 40%;
@@ -581,6 +584,7 @@ nav div a {
 .tabletLink {
     display: none;
     flex-direction: column;
+    font-size: 20px;
 }
 /* end of alex tutorial */
 
@@ -591,6 +595,8 @@ a{
 #name {
    font-size: 40px;
    text-align: center;
+   color: white;
+   background-color: black;
 }
 
 .headshotSection {
@@ -602,23 +608,9 @@ a{
     text-align: center;
 }
 
-/*
-.apiImages {
-    width: 20%;
-    height: 20%;
-    flex-direction: flex-end;
-    display: flex
-}
-.API {
-    display: flex;
-    flex-direction: row;
-}
-*/
-/* temporary for api images */
-
-img{
-    width: 20%;
-    height: 20%;
+.githubLogo, .linkedinLogo {
+    width: 40%;
+    height: 40%;
 }
 
 .Logos {
@@ -634,7 +626,9 @@ img{
 
 #aboutHeader {
     text-align: center;
-    font-size: 16;
+    font-size: 30;
+    color: white;
+    background-color: black;
 }
 
 .about {
@@ -651,8 +645,10 @@ img{
 }
 
 .educationHeader {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
+    color: white;
+    background-color: black;
 }
 
 .education {
@@ -673,6 +669,8 @@ img{
 .workHeader {
     font-size: 25px;
     text-align: center;
+    color: white;
+    background-color: black;
 }
 
 .work {
@@ -686,12 +684,16 @@ img{
 
 #skillsHeader {
     text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
 }
 
 .skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 .htmlLogo, .cssLogo, .jsLogo, .jqueryLogo, .jsonLogo, .pythonLogo {
@@ -702,19 +704,35 @@ img{
 
 #projectHeader{
     text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-}
 .projectSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/* Beginning of API Section */
+.apiImages {
+    width: 100%;
+    height: 100%;
+}
+
+.apiTitles {
+    font-size: 50px;
+    color: white; 
+    background-color: black;
+}
+
+.apiTexts {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+/* End Of API Section */
 
 #form {
     display: flex;
