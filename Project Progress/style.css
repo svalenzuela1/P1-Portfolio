@@ -183,8 +183,8 @@ a{
 
 /* Beginning of API Section */
 .apiImages {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .apiTitles {
@@ -232,12 +232,6 @@ a{
         }
         
         .contactEmail {
-        flex-direction: row;
-        height: 40px;
-        font-size: 30px;
-        }
-        
-        .contactPhone {
         flex-direction: row;
         height: 40px;
         font-size: 30px;
@@ -310,12 +304,12 @@ nav div a {
     visibility: hidden;
     display: none;
 }
-/*
+
 a {
     text-decoration: none;
     color: white;
 }
-*/
+
 #name {
    font-size: 50px;
    text-align: center;
@@ -498,16 +492,11 @@ body {
     font-size: 30px;
     }
     
-    .contactPhone {
-    flex-direction: row;
-    height: 40px;
-    font-size: 30px;
-    }
-    
     .message {
     height: 200px;
     font-size: 30px;
     }
+
     .labels {
     font-size: 40px;
     }    
@@ -549,15 +538,15 @@ justify-content: space-between;
     padding: 5px;
     visibility: visible;
 }
-/*
+
 nav{
 box-sizing: content-box;
 background-color: black;
 width: 100vw; 
 height: 80px;
-
+display: flex;
 }
-*/
+
 ul{
 display: flex;
 font-size: larger;
@@ -569,7 +558,7 @@ li {
 list-style-type: none;
 font-size: 35px;
 color: white;
-justify-content: space-between;
+justify-content: space-evenly;
 }
 
 .desktopLink{
@@ -595,15 +584,6 @@ text-align: center;
 width: 20%;
 height: 20%;
 }
-/*
-.apiImages {
-width: 20%;
-height: 20%;
-flex-direction: flex-end;
-display: flex
-}
-
-*/
 
 .hideOnDesktop{
 visibility: hidden;
@@ -615,6 +595,7 @@ display: flex;
 flex-direction: column;
 text-align: center;
 }
+
 /* beginning of grid */
 .introCopy {
 display: grid;
@@ -625,10 +606,7 @@ padding: 10px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 4fr;
 height: 500px;
-/*
-width: 90%;
-margin: auto;
-*/
+
 }
 
 .beginning1Copy {
@@ -638,14 +616,13 @@ background-color: black;
 height: 220px;
 width: 100%;
 text-align: center;
-/*
-grid-row-start: auto;
-*/
 margin-bottom: 20px;
 }
+
 #aboutHeaderCopy, #workHeaderCopy, #educationHeaderCopy {
 font-size: 30px;
 }
+
 .beginning2Copy {
 grid-area: beginning2Copy;
 color: white;
@@ -793,10 +770,10 @@ body {
     font-size: 30px;
 }
     
-.contactPhone {
-    flex-direction: row;
-    height: 40px;
-    font-size: 30px;
+.contactText {
+    font-size: 25px;
+     color: white;
+     background-color: black;
 }
     
 .message {
