@@ -258,7 +258,7 @@ a{
     
 
 
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 799px) {
     /* TABLET */
     * { border: 1px solid black;}
 
@@ -277,15 +277,6 @@ body {
 }
 
 /*alex tutorial*/
-.tabletBlock /*header*/{
-    display: flex;
-    width: 80%;
-    min-width: 450px;
-    background-color: black;
-    justify-content: space-between;
-    margin: 20px auto;
-    padding: 5px;
-}
 
 .desktopBlock {
     display: flex;
@@ -319,12 +310,12 @@ nav div a {
     visibility: hidden;
     display: none;
 }
-
+/*
 a {
     text-decoration: none;
     color: white;
 }
-
+*/
 #name {
    font-size: 50px;
    text-align: center;
@@ -543,15 +534,22 @@ display: none;
 
 header {
 display: flex;
-width: 90%;
-min-width: 320px;
-background-color: black;
+visibility: visible;
 justify-content: space-between;
-margin: 20px auto;
-padding: 5px;
-height: 200px;
+
 }
 
+.tabletBlock /*header*/{
+    display: flex;
+    width: 80%;
+    min-width: 450px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px;
+    visibility: visible;
+}
+/*
 nav{
 box-sizing: content-box;
 background-color: black;
@@ -559,10 +557,11 @@ width: 100vw;
 height: 80px;
 
 }
+*/
 ul{
 display: flex;
 font-size: larger;
-justify-content: space-around;
+justify-content: space-between;
 color: white;
 
 }
@@ -570,6 +569,7 @@ li {
 list-style-type: none;
 font-size: 35px;
 color: white;
+justify-content: space-between;
 }
 
 .desktopLink{
