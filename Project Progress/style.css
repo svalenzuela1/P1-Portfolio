@@ -96,7 +96,8 @@ a{
 
 .beginning1Copy {
     grid-area: beginning1Copy;
-    color: blue;
+    color: white;
+    background-color: black;
     height: 220px;
     width: 100%;
     text-align: center;
@@ -105,10 +106,13 @@ a{
     */
     margin-bottom: 20px;
 }
-
+#aboutHeaderCopy, #workHeaderCopy, #educationHeaderCopy {
+    font-size: 30px;
+}
 .beginning2Copy {
     grid-area: beginning2Copy;
-    color: teal;
+    color: white;
+    background-color: black;
     height: 220px;
     width: 100%;
     text-align: center;
@@ -118,7 +122,8 @@ a{
 .beginning3Copy {
     grid-area: beginning3Copy;
     grid-template-rows: span;
-    color: red;
+    color: white;
+    background-color: black;
     height: 220px;
     width: 100%;
     text-align: center;
